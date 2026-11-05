@@ -1,0 +1,35 @@
+{
+  "name": "Kulsoom Shaikh",
+  "role": "Full Stack Developer",
+  "studioLabel": "AI & Full Stack Studio",
+  "studioLead": "Portfolio of Kulsoom Shaikh",
+  "availabilityLabel": "Available for freelance and remote opportunities",
+  "replyLabel": "Send a message through the contact page.",
+  "cvPath": "",
+  "nav": [
+    {
+      "href": "/",
+      "label": "Home"
+    },
+    {
+      "href": "/about",
+      "label": "About"
+    },
+    {
+      "href": "/skills",
+      "label": "Skills"
+    },
+    {
+      "href": "/projects",
+      "label": "Projects"
+    },
+    {
+      "href": "/services",
+      "label": "Services"
+    },
+    {
+      "href": "/contact",
+      "label": "Contact"
+    }
+  ]
+}

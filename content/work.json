@@ -1,0 +1,217 @@
+{
+  "items": [
+    {
+      "slug": "calix",
+      "category": "Agents",
+      "name": "Example: CALIX Autonomous Intelligence OS",
+      "status": "pilot",
+      "visibility": "private",
+      "tagline": "Illustrative portfolio example \u2014 replace with your own verified project.",
+      "problem": "Organizations need inspectable agent autonomy on a Mac, not a black-box cloud bot.",
+      "architecture": [
+        "Specialist agents coordinated under a shared policy gate",
+        "Local reasoning and persistent memory",
+        "Screen-awareness concepts and confirmable tool execution"
+      ],
+      "tools": [
+        "Python",
+        "Agents",
+        "MCP concepts",
+        "macOS"
+      ],
+      "outcome": "Example only. Not a claim of work completed by Kulsoom Shaikh.",
+      "limits": "Demo content inherited from the starter template. Replace before sharing professionally.",
+      "featured": true
+    },
+    {
+      "slug": "jobmatch-ai",
+      "category": "Product",
+      "name": "Example: JobMatch AI",
+      "status": "pilot",
+      "visibility": "private",
+      "tagline": "Illustrative portfolio example \u2014 replace with your own verified project.",
+      "problem": "Each role needs a different CV, and an application should not go out without a person checking it.",
+      "architecture": [
+        "Next.js app for jobs, CVs, and applications",
+        "Express API with PostgreSQL, Redis, and a job search index",
+        "Official job APIs only, and a person approves an application before it is sent"
+      ],
+      "tools": [
+        "Next.js",
+        "TypeScript",
+        "Express",
+        "PostgreSQL",
+        "Prisma",
+        "Redis",
+        "OpenAI"
+      ],
+      "outcome": "Example only. Not a claim of work completed by Kulsoom Shaikh.",
+      "limits": "Demo content inherited from the starter template. Replace before sharing professionally.",
+      "featured": true
+    },
+    {
+      "slug": "glow-salon",
+      "category": "Messaging",
+      "name": "Example: Glow Beauty Salon AI Bot",
+      "status": "pilot",
+      "visibility": "private",
+      "tagline": "Illustrative portfolio example \u2014 replace with your own verified project.",
+      "problem": "Salon staff lose leads in chat; clients need reminders and rescheduling without a human on every message.",
+      "architecture": [
+        "Conversational FAQ and booking/reschedule flows",
+        "Staff calendar, leads, and admin dashboard",
+        "Human handoff when confidence or policy requires it"
+      ],
+      "tools": [
+        "TypeScript",
+        "WhatsApp",
+        "LLM",
+        "Dashboard"
+      ],
+      "outcome": "Example only. Not a claim of work completed by Kulsoom Shaikh.",
+      "limits": "Demo content inherited from the starter template. Replace before sharing professionally.",
+      "featured": true
+    },
+    {
+      "slug": "whatsapp-mcp",
+      "category": "MCP",
+      "name": "Example: MCP WhatsApp & Database Agent",
+      "status": "pilot",
+      "visibility": "private",
+      "tagline": "Illustrative portfolio example \u2014 replace with your own verified project.",
+      "problem": "Business chat needs tools (DB, files, S3) without stuffing everything into one prompt.",
+      "architecture": [
+        "MCP tools for scoped operations",
+        "Voice-message intake plus text",
+        "Real-time activity dashboard"
+      ],
+      "tools": [
+        "MCP",
+        "WhatsApp",
+        "SQL",
+        "TypeScript",
+        "Amazon S3"
+      ],
+      "outcome": "Example only. Not a claim of work completed by Kulsoom Shaikh.",
+      "limits": "Demo content inherited from the starter template. Replace before sharing professionally.",
+      "featured": true
+    },
+    {
+      "slug": "ai-cdss",
+      "category": "Clinical",
+      "name": "Example: AI-CDSS",
+      "status": "pilot",
+      "visibility": "private",
+      "tagline": "Illustrative portfolio example \u2014 replace with your own verified project.",
+      "problem": "Clinicians need AI that assists diagnosis and prescribing without hiding who did what.",
+      "architecture": [
+        "Physician, nurse, pharmacist, admin roles",
+        "Differential diagnosis then confirmed prescription",
+        "Pharmacist safety checks and admin audit trail"
+      ],
+      "tools": [
+        "React",
+        "Python",
+        "LLM",
+        ".NET",
+        "SQL Server"
+      ],
+      "outcome": "Example only. Not a claim of work completed by Kulsoom Shaikh.",
+      "limits": "Demo content inherited from the starter template. Replace before sharing professionally.",
+      "featured": true
+    },
+    {
+      "slug": "agentic-rag",
+      "category": "NLP",
+      "name": "Example: Agentic RAG / StudyPilot",
+      "status": "pilot",
+      "visibility": "private",
+      "tagline": "Illustrative portfolio example \u2014 replace with your own verified project.",
+      "problem": "Answers over private documents must be grounded, not fluent guesses.",
+      "architecture": [
+        "Retrieve \u2192 reason \u2192 retrieve loops",
+        "Vector store plus LangChain",
+        "Summaries, flashcards, and quiz generation"
+      ],
+      "tools": [
+        "FastAPI",
+        "LangChain",
+        "RAG",
+        "ChromaDB",
+        "PostgreSQL"
+      ],
+      "outcome": "Example only. Not a claim of work completed by Kulsoom Shaikh.",
+      "limits": "Demo content inherited from the starter template. Replace before sharing professionally.",
+      "featured": true
+    },
+    {
+      "slug": "omnitrader",
+      "category": "Agents",
+      "name": "Example: OmniTrader agent gates",
+      "status": "pilot",
+      "visibility": "private",
+      "tagline": "Illustrative portfolio example \u2014 replace with your own verified project.",
+      "problem": "Historical backtests overstate agents. The system needed live-market paper tests.",
+      "architecture": [
+        "External signals + market data + agent analysis",
+        "Single LLM round-trip AnalyzeSignal path",
+        "Frozen gates, then paper forward-testing"
+      ],
+      "tools": [
+        "AI agents",
+        "evaluation",
+        "timing instrumentation"
+      ],
+      "outcome": "Example only. Not a claim of work completed by Kulsoom Shaikh.",
+      "limits": "Demo content inherited from the starter template. Replace before sharing professionally.",
+      "featured": true
+    },
+    {
+      "slug": "clinnote",
+      "category": "Clinical",
+      "name": "Example: ClinNote AI",
+      "status": "pilot",
+      "visibility": "private",
+      "tagline": "Illustrative portfolio example \u2014 replace with your own verified project.",
+      "problem": "Patients cannot read specialist notes; translation and summary must stay conservative.",
+      "architecture": [
+        "Doctor / nurse / patient roles",
+        "Summarise and translate uploaded notes",
+        "AI augments; it does not replace judgment"
+      ],
+      "tools": [
+        "LLMs",
+        "Python",
+        "React",
+        "REST",
+        "JWT"
+      ],
+      "outcome": "Example only. Not a claim of work completed by Kulsoom Shaikh.",
+      "limits": "Demo content inherited from the starter template. Replace before sharing professionally.",
+      "featured": false
+    },
+    {
+      "slug": "seq2seq",
+      "category": "NLP",
+      "name": "Example: Seq2Seq English\u2013Urdu NMT",
+      "status": "pilot",
+      "visibility": "private",
+      "tagline": "Illustrative portfolio example \u2014 replace with your own verified project.",
+      "problem": "Urdu is morphologically rich; translation quality needs a number, not a demo sentence.",
+      "architecture": [
+        "Seq2Seq + attention",
+        "Transformer comparison",
+        "BLEU / ROUGE evaluation"
+      ],
+      "tools": [
+        "Python",
+        "PyTorch",
+        "Transformers",
+        "BLEU"
+      ],
+      "outcome": "Example only. Not a claim of work completed by Kulsoom Shaikh.",
+      "limits": "Demo content inherited from the starter template. Replace before sharing professionally.",
+      "featured": false
+    }
+  ]
+}

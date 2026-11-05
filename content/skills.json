@@ -1,0 +1,95 @@
+{
+  "groups": [
+    {
+      "id": "agents-llms",
+      "title": "Agentic AI, LLMs & MCP",
+      "blurb": "Agents, RAG, MCP servers, and prompt/token discipline for production workflows.",
+      "items": [
+        { "name": "AI Agents", "level": "core" },
+        { "name": "MCP server development", "level": "core" },
+        { "name": "Tool use / function calling", "level": "core" },
+        { "name": "OpenAI API", "level": "core" },
+        { "name": "Prompt engineering", "level": "core" },
+        { "name": "Token optimization", "level": "strong" },
+        { "name": "Prompt caching", "level": "strong" },
+        { "name": "Context management", "level": "core" },
+        { "name": "RAG pipelines", "level": "core" },
+        { "name": "LangChain", "level": "core" },
+        { "name": "LangGraph", "level": "strong" },
+        { "name": "LlamaIndex", "level": "strong" },
+        { "name": "Ollama", "level": "strong" },
+        { "name": "Hugging Face", "level": "strong" },
+        { "name": "GPT / BERT / T5", "level": "strong" },
+        { "name": "Human-in-the-loop", "level": "core" }
+      ]
+    },
+    {
+      "id": "voice-messaging",
+      "title": "Voice & Messaging",
+      "blurb": "WhatsApp MCP bots, voice workflows, booking, and staff handoff.",
+      "items": [
+        { "name": "WhatsApp AI bots", "level": "core" },
+        { "name": "Voice-message workflows", "level": "core" },
+        { "name": "Edge TTS", "level": "strong" },
+        { "name": "Appointment booking", "level": "core" },
+        { "name": "Human handoff", "level": "core" }
+      ]
+    },
+    {
+      "id": "ml-cv",
+      "title": "ML, Deep Learning & NLP eval",
+      "blurb": "Classical ML through transformers, translation metrics, and live agent gates.",
+      "items": [
+        { "name": "Scikit-learn", "level": "strong" },
+        { "name": "TensorFlow", "level": "working" },
+        { "name": "PyTorch", "level": "working" },
+        { "name": "Computer vision", "level": "strong" },
+        { "name": "Transformers", "level": "strong" },
+        { "name": "Seq2Seq + attention", "level": "strong" },
+        { "name": "TF-IDF", "level": "strong" },
+        { "name": "BLEU / ROUGE", "level": "strong" },
+        { "name": "Paper forward-testing", "level": "strong" }
+      ]
+    },
+    {
+      "id": "stack",
+      "title": "Programming & Integrations",
+      "blurb": "Python and TypeScript first, with .NET and SQL where the product needs it.",
+      "items": [
+        { "name": "Python", "level": "core" },
+        { "name": "TypeScript", "level": "core" },
+        { "name": "JavaScript", "level": "core" },
+        { "name": "C# / ASP.NET Core", "level": "strong" },
+        { "name": "FastAPI", "level": "core" },
+        { "name": "Node.js", "level": "strong" },
+        { "name": "REST APIs", "level": "core" },
+        { "name": "SOAP APIs", "level": "strong" },
+        { "name": "PostgreSQL", "level": "strong" },
+        { "name": "SQL Server", "level": "strong" },
+        { "name": "MySQL", "level": "working" },
+        { "name": "Supabase", "level": "strong" },
+        { "name": "Amazon S3", "level": "strong" },
+        { "name": "Java / Spring Boot", "level": "working" }
+      ]
+    },
+    {
+      "id": "delivery",
+      "title": "Engineering & Delivery",
+      "blurb": "Git workflows and shipping React, Next, and Angular products.",
+      "items": [
+        { "name": "Git & GitHub", "level": "core" },
+        { "name": "React", "level": "core" },
+        { "name": "Next.js", "level": "strong" },
+        { "name": "Angular", "level": "strong" },
+        { "name": "Power BI", "level": "working" },
+        { "name": "Docker", "level": "working" },
+        { "name": "Postman", "level": "strong" },
+        { "name": "Figma", "level": "working" },
+        { "name": "Vercel", "level": "strong" },
+        { "name": "Android / Kotlin", "level": "working" },
+        { "name": "Mendix", "level": "working" }
+      ]
+    }
+  ],
+  "spokenLanguages": ["English", "Urdu", "Sindhi"]
+}

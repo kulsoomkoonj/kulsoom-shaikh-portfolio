@@ -1,0 +1,257 @@
+{
+  "intro": "Explore services and discuss your project requirements. Contact details can be configured before publishing.",
+  "pipeline": [
+    {
+      "title": "Discover",
+      "copy": "We write down who will use it, and what done looks like, before anything is built.",
+      "lines": [
+        {
+          "kind": "run",
+          "text": "running stage 01 \u00b7 Discover"
+        },
+        {
+          "kind": "step",
+          "text": "asking who will use it"
+        },
+        {
+          "kind": "step",
+          "text": "writing what done looks like"
+        },
+        {
+          "kind": "ok",
+          "text": "scope agreed"
+        }
+      ]
+    },
+    {
+      "title": "Design",
+      "copy": "Screens and the tools an agent may call are agreed before production code.",
+      "lines": [
+        {
+          "kind": "run",
+          "text": "running stage 02 \u00b7 Design"
+        },
+        {
+          "kind": "step",
+          "text": "sketching the screen"
+        },
+        {
+          "kind": "step",
+          "text": "listing tools the agent may call"
+        },
+        {
+          "kind": "ok",
+          "text": "shape agreed"
+        }
+      ]
+    },
+    {
+      "title": "Build",
+      "copy": "Small pieces you can try, with the important path tested, and progress each week.",
+      "lines": [
+        {
+          "kind": "run",
+          "text": "running stage 03 \u00b7 Build"
+        },
+        {
+          "kind": "step",
+          "text": "shipping a piece you can try"
+        },
+        {
+          "kind": "step",
+          "text": "tests on the path that matters"
+        },
+        {
+          "kind": "ok",
+          "text": "weekly progress you can see"
+        }
+      ]
+    },
+    {
+      "title": "Hand over",
+      "copy": "The build is deployed, walked through, and left with you. Launch is the handover, not a surprise.",
+      "lines": [
+        {
+          "kind": "run",
+          "text": "running stage 04 \u00b7 Hand over"
+        },
+        {
+          "kind": "step",
+          "text": "deploying the build"
+        },
+        {
+          "kind": "step",
+          "text": "walking through what it does"
+        },
+        {
+          "kind": "ok",
+          "text": "handed over, with the code"
+        }
+      ]
+    }
+  ],
+  "chart": {
+    "title": "Where the written-up projects sit",
+    "caption": "Illustrative project categories in this starter template. Replace examples with your own work.",
+    "bars": [
+      {
+        "label": "Agents",
+        "count": 2
+      },
+      {
+        "label": "Clinical prototypes",
+        "count": 2
+      },
+      {
+        "label": "NLP",
+        "count": 2
+      },
+      {
+        "label": "Messaging",
+        "count": 1
+      },
+      {
+        "label": "MCP",
+        "count": 1
+      },
+      {
+        "label": "Product",
+        "count": 1
+      }
+    ]
+  },
+  "stats": [],
+  "items": [
+    {
+      "id": "agents",
+      "title": "AI agents and MCP servers",
+      "summary": "An agent that calls real tools, with a record of what it did.",
+      "includes": [
+        "Tools for files, databases, and APIs",
+        "A person can approve a step before it runs",
+        "An MCP server other apps can call"
+      ],
+      "proof": "CALIX and the WhatsApp MCP agent",
+      "proofHref": "/projects/whatsapp-mcp",
+      "icon": "agents"
+    },
+    {
+      "id": "whatsapp",
+      "title": "WhatsApp AI bots",
+      "summary": "A bot for booking, FAQs, voice notes, and handoff to a person.",
+      "includes": [
+        "Booking, reminders, and lead capture",
+        "Answers from your own information",
+        "Staff take over when the bot should stop"
+      ],
+      "proof": "Glow Beauty Salon bot",
+      "proofHref": "/projects/glow-salon",
+      "icon": "chat"
+    },
+    {
+      "id": "rag",
+      "title": "Document assistants",
+      "summary": "A chat that answers from your files and shows the source.",
+      "includes": [
+        "Your documents, not a generic chatbot",
+        "Each answer tied to a passage",
+        "A simple screen the team can use"
+      ],
+      "proof": "Agentic RAG",
+      "proofHref": "/projects/agentic-rag",
+      "icon": "nlp"
+    },
+    {
+      "id": "websites",
+      "title": "Full-stack websites and apps",
+      "summary": "The screen, the server, and the database, shipped as one product.",
+      "includes": [
+        "React, Next.js, or Angular",
+        "FastAPI, Node.js, or ASP.NET Core",
+        "PostgreSQL, SQL Server, or MySQL"
+      ],
+      "proof": "Selected projects",
+      "proofHref": "/projects",
+      "icon": "code"
+    },
+    {
+      "id": "llm-features",
+      "title": "AI inside an app you already have",
+      "summary": "Chat, summaries, or tool use added to the product you already run.",
+      "includes": [
+        "Fits the stack you already have",
+        "One clear job, not a vague chatbot",
+        "Your app stays; the model is a feature"
+      ],
+      "proof": "WhatsApp and database agent",
+      "proofHref": "/projects/whatsapp-mcp",
+      "icon": "layers"
+    },
+    {
+      "id": "apis",
+      "title": "APIs and services",
+      "summary": "A product split into clear services when one app is no longer enough.",
+      "includes": [
+        "REST and SOAP APIs",
+        "FastAPI, Node.js, or ASP.NET Core",
+        "Docker when the job needs a container"
+      ],
+      "proof": "WhatsApp and database agent",
+      "proofHref": "/projects/whatsapp-mcp",
+      "icon": "layers"
+    },
+    {
+      "id": "android",
+      "title": "Android apps",
+      "summary": "A Kotlin app for a job that has to live on a phone.",
+      "includes": [
+        "Android and Kotlin",
+        "A screen that matches the product",
+        "Used on a real project, not a daily stack"
+      ],
+      "proof": "Android on the skill board",
+      "proofHref": "/skills",
+      "icon": "phone"
+    },
+    {
+      "id": "screens",
+      "title": "Screens in Figma",
+      "summary": "The interface is drawn before the build, then implemented in the app.",
+      "includes": [
+        "Figma layouts for the job",
+        "Screens that match the stack",
+        "Used on a real project, not a design studio"
+      ],
+      "proof": "Figma on the skill board",
+      "proofHref": "/skills",
+      "icon": "pen"
+    },
+    {
+      "id": "llm-checks",
+      "title": "LLM checks and cost",
+      "summary": "Token use, answer quality, and a person in the loop before a risky step.",
+      "includes": [
+        "Token optimization and prompt caching",
+        "BLEU, ROUGE, and a check you can read",
+        "A person approves a step that matters"
+      ],
+      "proof": "Agentic RAG",
+      "proofHref": "/projects/agentic-rag",
+      "icon": "chart"
+    },
+    {
+      "id": "mendix",
+      "title": "Mendix internal tools",
+      "summary": "A faster internal tool on Mendix when a custom build would wait too long.",
+      "includes": [
+        "Internal tools and small workflows",
+        "Mendix, used on a real project",
+        "A path to custom code if the tool outgrows it"
+      ],
+      "proof": "Mendix on the skill board",
+      "proofHref": "/skills",
+      "icon": "code"
+    }
+  ],
+  "reviews": []
+}
