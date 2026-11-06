@@ -13,8 +13,7 @@ export const metadata: Metadata = {
 export default function AboutPage() {
   const profile = getProfile();
   const site = getSite();
-  const spoken = getSkills().spokenLanguages;
-  const study = getEducation().degrees.find((degree) => degree.current);
+ 
 
   return (
     <div className="container py-4 py-lg-5">
