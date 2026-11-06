@@ -40,7 +40,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     jobTitle: profile.headline,
 
     url: (process.env.NEXT_PUBLIC_SITE_URL || "https://example.com"),
-    sameAs: profile.links.filter((link) => link.label !== "Email").map((link) => link.href),
+    sameAs: [],
   };
 
   return (
