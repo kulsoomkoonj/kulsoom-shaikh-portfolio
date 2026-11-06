@@ -47,9 +47,9 @@ export default function ServicesPage() {
         <h2 className="h-display display-6 mb-2">Client feedback</h2>
         <p className="lede mb-4">Written after the work was delivered.</p>
         <CardReel label="Reviews" seconds={40} wide>
-          {services.reviews.map((review) => (
-            <ReviewCard review={review} key={review.name} />
-          ))}
+         {services.reviews.map((review, index) => (
+  <ReviewCard review={review} key={index} />
+))}
         </CardReel>
       </section>
 
