@@ -95,7 +95,7 @@ export default function HomePage() {
         <p className="lede mb-4">Written after the work was delivered.</p>
         <CardReel label="Reviews" seconds={40} wide>
           {services.reviews.map((review) => (
-            <ReviewCard review={review} key={review.name} />
+            <ReviewCard review={review} key={index} />
           ))}
         </CardReel>
       </section>}
