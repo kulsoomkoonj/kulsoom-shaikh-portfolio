@@ -9,35 +9,65 @@ import work from "../../content/work.json";
 
 import type { Review } from "../components/ReviewCard";
 
+// ============================================
+// TypeScript Data Types
+// ============================================
+
 export type WorkItem = (typeof work.items)[number];
 
-type ProfileLink = {
+export type ProfileLink = {
   label: string;
   href: string;
   handle?: string;
 };
 
-type DeliveryStat = {
+export type DeliveryStat = {
   value: string;
   label: string;
   note: string;
 };
 
-type EducationDegree = {
+export type EducationDegree = {
+  id?: string;
+  credential: string;
+  institution: string;
+  field?: string;
+  startDate?: string;
+  endDate?: string;
   current?: boolean;
-  [key: string]: unknown;
+  badges?: string[];
 };
 
-type Certification = {
+export type Certification = {
   title: string;
   issuer: string;
   href: string | null;
   image?: string;
 };
 
+export type ExperienceRole = {
+  id?: string;
+  role: string;
+  company: string;
+  location?: string;
+  startDate: string;
+  endDate?: string | null;
+  current?: boolean;
+  highlights: string[];
+  stack?: string[];
+};
+
+// ============================================
+// Site
+// ============================================
+
 export function getSite() {
   return site;
 }
+
+// ============================================
+// Profile
+// ============================================
 
 export function getProfile() {
   return {
@@ -46,16 +76,28 @@ export function getProfile() {
   };
 }
 
+// ============================================
+// Skills
+// ============================================
+
 export function getSkills() {
   return skills;
 }
 
+// ============================================
+// Experience
+// ============================================
+
 export function getExperience() {
   return {
     ...experience,
-    roles: experience.roles as Record<string, unknown>[],
+    roles: experience.roles as ExperienceRole[],
   };
 }
+
+// ============================================
+// Education
+// ============================================
 
 export function getEducation() {
   return {
@@ -65,17 +107,29 @@ export function getEducation() {
   };
 }
 
-export function getWork() {
+// ============================================
+// Projects
+// ============================================
+
+export function getWork(): WorkItem[] {
   return work.items;
 }
 
-export function getFeaturedWork() {
+export function getFeaturedWork(): WorkItem[] {
   return work.items.filter((item) => item.featured);
 }
 
-export function getWorkBySlug(slug: string) {
-  return work.items.find((item) => item.slug === slug) ?? null;
+export function getWorkBySlug(
+  slug: string
+): WorkItem | null {
+  return (
+    work.items.find((item) => item.slug === slug) ?? null
+  );
 }
+
+// ============================================
+// Services
+// ============================================
 
 export function getServices() {
   return {
@@ -86,6 +140,11 @@ export function getServices() {
 }
 
 export function getServiceById(id: string | undefined) {
-  if (!id) return null;
-  return services.items.find((item) => item.id === id) ?? null;
+  if (!id) {
+    return null;
+  }
+
+  return (
+    services.items.find((item) => item.id === id) ?? null
+  );
 }
